@@ -13,6 +13,7 @@ nav {
 	position: fixed;
 	top: 0;
 	width: 100%;
+  z-index: 10;
 }
 
 nav ul {
@@ -39,6 +40,12 @@ footer {
   width: 100%;
 }
 
+span{
+  display: block;
+  margin-top: 5%;
+  text-align: center;
+}
+
 footer a {
     color: black;
     margin-right: 10px;
@@ -52,11 +59,26 @@ footer a {
     margin-top: 10px;
   }
 
+.h1style{
+ position: absolute;
+  font-size: small;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .container {
-    margin-top: 80px;
+ position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    border: 1px solid black;
+    padding: 2%;
 }
 .video-container {
-  margin-top: 8px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 20px;
   position: relative;
   padding-bottom: 56.25%; /* Set the aspect ratio for the video */
   padding-top: 30px;
@@ -83,5 +105,18 @@ footer a {
   nav ul {
     flex-direction: row;
     justify-content: center;
+  }
+.video-container{
+  margin-top: 3%;
+}
+
+span{
+  margin-top: 20%;
+}
+
+  .container{
+     top: 47%;
+    margin-top: -12%;
+    width: 80%;
   }
 }
