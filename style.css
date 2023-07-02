@@ -97,6 +97,10 @@ footer a {
 }
 
 
+div.david_class1{
+ margin-left: 20%;margin-right: 20%;"
+}
+
 @media (max-width: 767px) {
   nav {
     flex-direction: row;
