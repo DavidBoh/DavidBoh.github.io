@@ -1,26 +1,23 @@
 body {
-    margin: 0;
+  margin: 0;
 	padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 	background-color: white;
 }
 
 nav {
 	background-color:#6E2D5E;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 20px 20px;
-	position: fixed;
-	top: 0;
-	width: 100%;
-  z-index: 10;
 }
 
-nav ul {
+.nav-text-color a{
+  color: white;
+}
+/* nav ul, thanks to this css the ul is displayed horizontally */
+nav ul { 
 	display: flex;
-	list-style: none;
-	margin: 0;
-	padding: 0;
+	list-style: none; /*removes ugly dots of ul*/
 }
 
 nav li {
@@ -28,113 +25,33 @@ nav li {
 }
 
 nav a {
-	color: black;
 	text-decoration: aliceblue;
+}
+
+.david_class1{
+  flex: 1;
+  padding: 20px;
 }
 
 footer {
 	background-color:#6E2D5E;
   padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-span{
-  display: block;
-  margin-top: 5%;
   text-align: center;
 }
 
-footer a {
-    color: black;
-    margin-right: 10px;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  footer div {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-  }
-
-.h1style{
- position: absolute;
-  font-size: small;
-  top: 15%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.footer-text-color a {
+  color: white;
 }
-.container {
- position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-    border: 1px solid black;
-    padding: 2%;
-}
-.video-container {
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 2%;
-  margin-bottom: 20px;
-  position: relative;
-  padding-bottom: 56.25%; /* Set the aspect ratio for the video */
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
+.footer-text-color p {
+  color: white;
 }
 
-.video-container iframe,
-.video-container object,
-.video-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+footer ul { 
+	display: flex;
 }
 
-.banner1{
-  border-width: 1px;
-  border-style: solid;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-.banner2{
-  border-width: 1px;
-  border-style: solid;
-  margin-left: 10%;
-  margin-right: 10%;
-}
+footer li {
 
-
-div.david_class1{
-display: flex;
-    align-items: center; 
-}
-
-@media (max-width: 767px) {
-  nav {
-    flex-direction: row;
-    justify-content: center;
-  }
-  nav ul {
-    flex-direction: row;
-    justify-content: center;
-  }
-.video-container{
-  margin-top: 3%;
-}
-
-span{
-  margin-top: 20%;
-}
-
-  .container{
-     top: 47%;
-    margin-top: -12%;
-    width: 80%;
-  }
+	margin: 0 10px;
+	list-style: none; /*removes ugly dots of ul*/
 }
