@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-	background-color: lightblue;
+	background-color:#6E2D5E;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -33,7 +33,7 @@ nav a {
 }
 
 footer {
-  background-color: lightblue;
+	background-color:#6E2D5E;
   padding: 10px;
   position: fixed;
   bottom: 0;
@@ -96,9 +96,23 @@ footer a {
   height: 100%;
 }
 
+.banner1{
+  border-width: 1px;
+  border-style: solid;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.banner2{
+  border-width: 1px;
+  border-style: solid;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 
 div.david_class1{
- margin-left: 20%;margin-right: 20%;"
+display: flex;
+    align-items: center; 
 }
 
 @media (max-width: 767px) {
