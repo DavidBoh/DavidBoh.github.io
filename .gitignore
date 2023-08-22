@@ -61,3 +61,5 @@
 
 # tar gz
 *.tar.gz
+
+.hintrc
