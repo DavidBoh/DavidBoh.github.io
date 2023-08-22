@@ -5,6 +5,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
 	background-color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav {
@@ -31,6 +32,26 @@ nav a {
 .david_class1{
   flex: 1;
   padding: 20px;
+}
+
+.banner1{
+  display: inline-block;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.banner2{
+  display: inline-block;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 1%;
+}
+
+.title{
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+
 }
 
 footer {
